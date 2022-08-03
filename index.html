@@ -3,9 +3,29 @@
   <meta charset="UTF-8" />
   <title>Chatbot Host</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <script src="https://tvassets.blob.core.windows.net/system/direflowBundle.js"></script>
   <body>
     <div>
       <h1>Chatbot host page</h1>
     </div>
+    <talkvia-chatbot
+    id="chatbotDemo"
+    chatbotName="My Chatbot"
+    subHeading="Online"
+    fulfilmentUrl="https://voicebotsvc.talkvia.com/Process/ChatBot?ProjectId=3f40d537-b5d2-4257-aa7f-5b4d56be43ed"
+    primaryColor="#f66d41"
+    secondaryColor="#f66d41"
+    headingTextColor="#000000"
+    responseDelayMs="2000"
+    googleQuote="Ok Google, talk to My Voice App"
+    alexaQuote="Alexa, launch My Voice App"
+    allowSound="true"
+    soundOnByDefault="false"
+    allowSpeechRecognition="true"
+    carouselTimeMs="8000"
+    tabindex="0"
+    aria-label="My Chatbot"
+    primaryColor="#f66d41"
+    showTextbox="true" />
   </body>
 </html>
